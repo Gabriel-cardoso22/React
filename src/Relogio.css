@@ -1,0 +1,12 @@
+.relogio {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    padding: 12px 24px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
