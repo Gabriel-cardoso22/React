@@ -1,5 +1,4 @@
 import React from "react";
-import { useSyncExternalStore } from "react";
 import { Link } from "react-router-dom";
 
 const Home = () =>{
@@ -9,10 +8,10 @@ const Home = () =>{
             <nav>
                 <ul>
                     <li>
-                        <Link to='Avt01'>Atividade 1</Link>
+                        <Link to='Atv01'>Atividade 1</Link>
                     </li>
                     <li>
-                        <Link to='Avt02'>Atividade 2</Link>
+                        <Link to='Atv02'>Atividade 2</Link>
                     </li>
                 </ul>
             </nav>
