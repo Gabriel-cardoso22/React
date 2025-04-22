@@ -2,7 +2,7 @@ import MinhasRotas from "./minhasRotas";
 
 function App() {
   return (
-    <minhasRotas />
+    <MinhasRotas />
   );
 }
 export default App;
