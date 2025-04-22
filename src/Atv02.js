@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function App() {
     return (
-        <link to="/">Voltar</link>
+        <Link to="/">Voltar</Link>
     );
 }
 
