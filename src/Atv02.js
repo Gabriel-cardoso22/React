@@ -1,9 +1,13 @@
+import Contador from './Contador'
 import { Link } from "react-router-dom";
 
-function App() {
-    return (
-        <Link to="/">Voltar</Link>
+export default function Atv02() {
+    return(
+        <>
+            <h1>Atividade 2</h1>
+            <Contador />
+            <br />
+            <Link to="/">Retormar a Página inicial</Link>
+        </>
     );
 }
-
-export default App;
