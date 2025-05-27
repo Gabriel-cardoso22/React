@@ -1,17 +1,21 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Home from "./Home"
-import Atv01 from "./Atv01"
-import Atv02 from "./Atv02"
+import Home from "./Home";
+import Atv01 from "./componentes/Atv01/Atv01";
+import Atv02 from "./componentes/Atv02/Atv02";
+import Atv03 from "./componentes/Atv03/Atv03";
+import Atv04 from "./componentes/Atv04/Atv04";
 
-export default function minhasRotas() {
+export default function minhasRotas(){
     return (
         <BrowserRouter>
         <Routes>
-            <Route path="/atv02" element={<Atv02 />}/>
             <Route path="/" element={<Home />}/>
-            <Route path="/atv01" element={<Atv01 />}/>
-            </Routes>
+            <Route path="/atv01" element={<Atv01 />} />
+            <Route path="/atv02" element={<Atv02 />} />
+            <Route path="/atv03" element={<Atv03 />} />
+            <Route path="/atv04" element={<Atv04 />} />
+        </Routes>
         </BrowserRouter>
-    )
+    );
 }
